@@ -122,12 +122,6 @@ export const mainStore = defineStore("mainData", {
           order: 18,
           show: true,
         },
-        {
-          label: "Github",
-          name: "github",
-          order: 19,
-          show: true,
-        },
       ],
       newsArr: [],
       // 链接跳转方式
