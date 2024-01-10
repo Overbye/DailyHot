@@ -126,7 +126,7 @@ export const mainStore = defineStore("mainData", {
           label: "NGA热帖",
           name: "ngabbs",
           order: 19,
-          show: true,
+          show: false,
         },
       ],
       newsArr: [],
@@ -148,7 +148,7 @@ export const mainStore = defineStore("mainData", {
         showIcon: false,
       });
       this.siteTheme = val;
-      this.siteThemeAuto = false;
+      this.siteThemeAuto = true;
     },
     // 检查更新
     checkNewsUpdate() {
